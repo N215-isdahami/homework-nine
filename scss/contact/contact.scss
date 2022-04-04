@@ -1,0 +1,73 @@
+.content-contact {
+  // background-color: tan;
+  padding: 50px;
+
+  .heroimg {
+    height: 230px;
+    width: 100%;
+    // background-color: red;
+    background-image: url(../images/contactHero.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .products {
+    width: 900px;
+    // background-color: blue;
+    min-height: 50px;
+    margin: 0 auto;
+
+    .product-form {
+      //background-color: red;
+      margin-bottom: 30px;
+      margin-left: 200px;
+      .form-text-input {
+        width: 529px;
+        margin-bottom: 20px;
+
+        input {
+          width: 529px;
+          height: 60px;
+          background-color: rgb(235, 235, 235);
+          border: none;
+          border-color: blue;
+          padding: 20px;
+        }
+      }
+
+      .form-text-message-input {
+        width: 529px;
+        margin-bottom: 20px;
+
+        input {
+          width: 529px;
+          height: 220px;
+          background-color: rgb(235, 235, 235);
+          border: none;
+          border-color: #000;
+          padding: 20px;
+        }
+      }
+
+      .btn-message {
+        width: 168px;
+        height: 60px;
+        background-color: #000;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}

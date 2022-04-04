@@ -1,0 +1,22 @@
+nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+
+  .logo {
+    width: 100px;
+    height: 50px;
+    background-image: url(../images/logocam.png);
+    background-size: cover;
+    background-position: 0%;
+    // background-color: purple;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}

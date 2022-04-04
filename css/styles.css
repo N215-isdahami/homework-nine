@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+  background-color: #a6d9f7;
+}
+
+nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+nav .logo {
+  width: 100px;
+  height: 50px;
+  background-image: url(../images/logocam.png);
+  background-size: cover;
+  background-position: 0%;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.content {
+  padding: 50px;
+}
+.content .heroimg {
+  height: 230px;
+  width: 100%;
+  background-image: url(../images/oldfilms.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .products .product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content .products .product .prod-image {
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  background-image: url(../images/breathless.jpg);
+  background-size: cover;
+}
+.content .products .product .prod-image-two {
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  background-image: url(../images/mononcle.jpg);
+  background-size: cover;
+}
+.content .products .product .prod-image-three {
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  background-image: url(../images/400blows.jpg);
+  background-size: cover;
+}
+.content .products .product .prod-desc {
+  width: 600px;
+}
+.content .products .product .prod-desc h3 {
+  margin-top: 10px;
+}
+.content .products .product .prod-desc .btn-showTime {
+  width: 133px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 10px 6px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+}
+
+.content-about {
+  padding: 50px;
+}
+.content-about h1 {
+  margin-top: 20px;
+}
+.content-about .heroimg {
+  height: 230px;
+  width: 100%;
+  background-image: url(../images/fnw.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-about .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.content-about .products .product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content-about .products .product .prod-image {
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  background-image: url(../images/fnw2.jpg);
+  background-size: cover;
+}
+.content-about .products .product .prod-image-two {
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  background-image: url(../images/mononcle.jpg);
+  background-size: cover;
+}
+.content-about .products .product .prod-image-three {
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  background-image: url(../images/400blows.jpg);
+  background-size: cover;
+}
+.content-about .products .product .prod-desc {
+  width: 600px;
+}
+.content-about .products .product .prod-desc h4 {
+  margin-top: 10px;
+}
+.content-about .products .product .prod-desc .btn-showTime {
+  width: 133px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 10px 6px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+}
+.content-about .products .fnw-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.content-about .products .fnw-images {
+  max-width: 100%;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.content-about .products .fnw-images .fnw-image-one {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/directOne.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content-about .products .fnw-images .fnw-image-one .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-about .products .fnw-images .fnw-image-two {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/directTwo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content-about .products .fnw-images .fnw-image-two .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-about .products .fnw-images .fnw-image-three {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/directThree.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content-about .products .fnw-images .fnw-image-three .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+
+.content-shop {
+  padding: 50px;
+}
+.content-shop .heroimg {
+  height: 230px;
+  width: 100%;
+  background-image: url(../images/shopHero.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.content-shop h1 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-shop .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content-shop .products .product {
+  margin-bottom: 50px;
+}
+.content-shop .products .product .btnBuy {
+  width: 133px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 10px 6px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-top: 360px;
+}
+.content-shop .products .product .fnw-images-one {
+  max-width: 100%;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.content-shop .products .product .fnw-images-one .fnw-image-one {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/breathless.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-one .fnw-image-one .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-one .fnw-image-two {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/lapointe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-one .fnw-image-two .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-one .fnw-image-three {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/hiro.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-one .fnw-image-three .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-two {
+  max-width: 100%;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.content-shop .products .product .fnw-images-two .fnw-image-one {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/mononcle.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-two .fnw-image-one .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-two .fnw-image-two {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/bonnes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-two .fnw-image-two .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-two .fnw-image-three {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/piano.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-two .fnw-image-three .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-three {
+  max-width: 100%;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.content-shop .products .product .fnw-images-three .fnw-image-one {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/400blows.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-three .fnw-image-one .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-three .fnw-image-two {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/cleo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-three .fnw-image-two .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+.content-shop .products .product .fnw-images-three .fnw-image-three {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/lola.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.content-shop .products .product .fnw-images-three .fnw-image-three .img-text {
+  color: #000;
+  margin-top: 340px;
+}
+
+.content-contact {
+  padding: 50px;
+}
+.content-contact .heroimg {
+  height: 230px;
+  width: 100%;
+  background-image: url(../images/contactHero.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-contact h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-contact .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content-contact .products .product-form {
+  margin-bottom: 30px;
+  margin-left: 200px;
+}
+.content-contact .products .product-form .form-text-input {
+  width: 529px;
+  margin-bottom: 20px;
+}
+.content-contact .products .product-form .form-text-input input {
+  width: 529px;
+  height: 60px;
+  background-color: #ebebeb;
+  border: none;
+  border-color: blue;
+  padding: 20px;
+}
+.content-contact .products .product-form .form-text-message-input {
+  width: 529px;
+  margin-bottom: 20px;
+}
+.content-contact .products .product-form .form-text-message-input input {
+  width: 529px;
+  height: 220px;
+  background-color: #ebebeb;
+  border: none;
+  border-color: #000;
+  padding: 20px;
+}
+.content-contact .products .product-form .btn-message {
+  width: 168px;
+  height: 60px;
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
